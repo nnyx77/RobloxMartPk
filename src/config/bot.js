@@ -2,7 +2,7 @@ import { logger } from '../utils/logger.js';
 
 export const botConfig = {
   // =========================
-  // BOT PRESENCE (what users see under the bot name)
+  // BOT PRESENCE (RobloxMartPk)
   // =========================
   // `status` options:
   // - "online"    = green dot
@@ -11,7 +11,7 @@ export const botConfig = {
   // - "invisible" = appears offline
   presence: {
     // Current online state shown on Discord.
-    status: "online",
+    status: "dnd",
 
     // Activity lines shown under the bot name.
     // `type` number mapping from Discord:
@@ -26,7 +26,7 @@ export const botConfig = {
         // Text users will see (example: "Playing /help | Titan Bot").
         name: "LF cheap robux? check my bio <3",
         // Activity type number (0 = Playing).
-        type: 4,
+        type: 3,
       },
     ],
   },
