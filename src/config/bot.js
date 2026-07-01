@@ -23,8 +23,8 @@ export const botConfig = {
     // 5 = Competing
     activities: [
       {
-        // Text users will see (example: "Playing ?help | Titan Bot").
-        name: "<3",
+        // Text users will see (example: "Playing /help | Titan Bot").
+        name: "eating waiz's ass",
         // Activity type number (0 = Playing).
         type: 4,
       },
