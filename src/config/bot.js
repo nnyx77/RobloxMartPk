@@ -24,7 +24,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "LF cheap robux? check my bio <3",
+        name: "want cheap robux? check my bio <3",
         // Activity type number (0 = Playing).
         type: 3,
       },
@@ -50,7 +50,7 @@ export const botConfig = {
 
     // Command prefix for text-based commands (e.g., "!" for "!ping").
     // Supports both slash commands and prefix commands.
-    prefix: process.env.PREFIX || "!",
+    prefix: process.env.PREFIX || ",",
   },
 
   // =========================
